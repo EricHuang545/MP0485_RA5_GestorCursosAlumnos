@@ -97,7 +97,7 @@ public class ControladorAlumnos {
     public void back(){
         vista.getPrincipal().setVisible(true);
         vista.getPrincipal().actualizarNumeroAlumnos();
-        vista.dispose();
+        vista.setVisible(false);
     }
 
     public void cargarAlumnos() {
